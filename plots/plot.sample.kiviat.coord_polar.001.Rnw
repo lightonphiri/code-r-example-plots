@@ -17,10 +17,10 @@ require(fmsb)
 require(ggthemes)
 
 # generate tikZ-LaTeX input file
-tikz('plot.experimentation.performance.summary.kiviat.tex', width=5.5, height=6.5)
+tikz('plot.sample.kiviat.coord_polar.001.tex', width=5.5, height=6.5)
 
 # import datafeeds
-dataset <- read.table("../data/plot.experimentation.performance.kiviat.dat", header=TRUE, sep=",")
+dataset <- read.table("../data/plot.sample.kiviat.coord_polar.001.dat", header=TRUE, sep=",")
 
 # re-order and rename workloads
 dataset$Workload <- factor(dataset$Workload, levels=c(100, 200, 400, 800, 1600, 3200, 6400, 12800, 25600, 51200, 102400, 204800, 409600, 819200, 1638400), labels=c("100","200","400","800","1.6k","3.2k","6.4k","12.8k","25.6k","51.2k","102.4k","204.8k","409.6k","819.2k","1638.4k"))

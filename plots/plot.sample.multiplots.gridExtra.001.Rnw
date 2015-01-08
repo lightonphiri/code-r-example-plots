@@ -16,15 +16,14 @@ require(gridExtra)
 require(ggthemes)
 
 # generate tikZ-LaTeX input file
-#tikz('plot.experimentation.performance.indexing.index-throughput.tex', width=5.5, height=4.8) # all four index plots
-tikz('plot.experimentation.performance.indexing.index-throughput.tex', width=5.5, height=8.0)
+tikz('plot.sample.multiplots.gridExtra.001.tex', width=5.5, height=8.0)
 
 # 
 # INDEX THROUGHPUT
 # 
 
 # import datafeeds
-dataset <- read.table("../data/plot.experimentation.performance.indexing.index-throughput.dat", header=TRUE, sep=",")
+dataset <- read.table("../data/plot.sample.multiplots.gridExtra.001a.dat", header=TRUE, sep=",")
 
 # convert dataset to molten form for ggplot2
 experimentdataset <- melt(dataset, id.vars="Workload")
@@ -38,7 +37,7 @@ levels(experimentdataset$variable)[levels(experimentdataset$variable)=="Throughp
 # 
 
 # import datafeeds
-index_size_dataset <- read.table("../data/plot.experimentation.performance.indexing.index-size.dat", header=TRUE, sep=",")
+index_size_dataset <- read.table("../data/plot.sample.multiplots.gridExtra.001b.dat", header=TRUE, sep=",")
 
 # convert dataset to molten form for ggplot2
 index_size_experimentdataset <- melt(index_size_dataset, id.vars=c(1))
@@ -56,7 +55,7 @@ levels(index_size_experimentdataset$variable)[levels(index_size_experimentdatase
 # 
 
 # import datafeeds
-incremental_index_dataset <- read.table("../data/plot.experimentation.performance.indexing.index-update.dat", header=TRUE, sep=",")
+incremental_index_dataset <- read.table("../data/plot.sample.multiplots.gridExtra.001c.dat", header=TRUE, sep=",")
 
 # convert dataset to molten form for ggplot2
 ###experimentdataset <- melt(dataset, id.vars=c(1))
