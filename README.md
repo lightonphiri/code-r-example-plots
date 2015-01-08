@@ -38,24 +38,26 @@ Usage
     * Renames files accordingly
 
 
-Sample Catalogue
-----------------
-
-* Barplots
-    ![plot.sample.barplot.001.Rnw](../master/output/plot.sample.barplot.001.png?raw=true)
-    ![plot.sample.barplot.002.Rnw](../master/output/plot.sample.barplot.002.png?raw=true)
-    
-* Boxplots
-    ![plot.sample.boxplot.001.Rnw](../master/output/plot.sample.barplot.002.png?raw=true)
-
-* Kiviat Plots
-    ![plot.sample.kiviat.coord_polar.001.Rnw](../master/output/plot.sample.kiviat.coord_polar.001.png?raw=true)
-
-* Multiple Plot on One Graph
-    ![plot.sample.multiplots.gridExtra.001.Rnw](../master/output/plot.sample.multiplots.gridExtra.001.png?raw=true)
-    
 Contributing
 ------------
 
 1. Fork it
 2. Send suggestions
+
+
+Plots Catalogue
+---------------
+
+* Barplots
+![plot.sample.barplot.001.Rnw](../master/output/plot.sample.barplot.001.png?raw=true)
+![plot.sample.barplot.002.Rnw](../master/output/plot.sample.barplot.002.png?raw=true)
+    
+* Boxplots
+![plot.sample.boxplot.001.Rnw](../master/output/plot.sample.barplot.002.png?raw=true)
+
+* Kiviat Plots
+![plot.sample.kiviat.coord_polar.001.Rnw](../master/output/plot.sample.kiviat.coord_polar.001.png?raw=true)
+
+* Multiple Plot on One Graph
+![plot.sample.multiplots.gridExtra.001.Rnw](../master/output/plot.sample.multiplots.gridExtra.001.png?raw=true)
+    
