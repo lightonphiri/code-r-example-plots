@@ -15,7 +15,8 @@ require(grid)
 require(ggthemes)
 
 # generate tikZ-LaTeX input file
-tikz('plot.sample.barplot.001.tex', width=5.5, height=4.0)
+###tikz('../output/plot.sample.barplot.001.tex', width=5.5, height=4.0)
+tikz('../output/plot.sample.barplot.001.tex')
 
 # import datafeeds
 dataset <- read.table("../data/plot.sample.barplot.001.dat", header=TRUE, sep=",")
@@ -44,13 +45,12 @@ ggplot(experimentdataset,
              theme(legend.position="none", 
 		   legend.title=element_blank(), 
 		   axis.ticks.y=element_blank(),
-		   axis.title.x = element_text(vjust=-0.8,size=10),
-		   axis.title.y = element_text(vjust=-0.2,size=10),
-		   axis.text = element_text(size=8),
-		   strip.text.x = element_text(size=9),
-		   #plot.margin=unit(c(0.2,0.15,0.5,0.8), "cm")) + 
+		   axis.title.x = element_text(vjust=-0.8,size=14),
+		   axis.title.y = element_text(vjust=-0.2,size=14),
+		   axis.text = element_text(size=14),
+		   strip.text.x = element_text(size=14),
 		   plot.margin=unit(c(0.5,0.5,0.5,0.8), "cm")) +
 	     scale_y_continuous(breaks=seq(from=0,to=20,by=5)) +
-             coord_flip() + ##+ scale_fill_grey() # add fill=Language for filled bars 
+             coord_flip() + 
 	     scale_fill_stata()
 @

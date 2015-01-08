@@ -1,0 +1,18 @@
+\documentclass[a4paper,10pt]{article}
+%
+\usepackage{charter}
+\usepackage{tikz}
+%
+\usetikzlibrary{external}
+\tikzset{external/system call={latex \tikzexternalcheckshellescape -halt-on-error
+-interaction=batchmode -jobname "\image" "\texsource";
+dvips -o "\image".ps "\image".dvi;
+ps2eps "\image.ps"}}
+\tikzexternalize
+
+
+\begin{document}
+  \input{plot.sample.barplot.001.tex}
+  \input{plot.sample.multiplots.gridExtra.001.tex}
+  \input{plot.sample.kiviat.coord_polar.001.tex}
+\end{document}

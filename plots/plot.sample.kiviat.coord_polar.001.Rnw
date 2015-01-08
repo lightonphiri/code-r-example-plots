@@ -17,7 +17,8 @@ require(fmsb)
 require(ggthemes)
 
 # generate tikZ-LaTeX input file
-tikz('plot.sample.kiviat.coord_polar.001.tex', width=5.5, height=6.5)
+###tikz('../output/plot.sample.kiviat.coord_polar.001.tex', width=5.5, height=6.5)
+tikz('../output/plot.sample.kiviat.coord_polar.001.tex')
 
 # import datafeeds
 dataset <- read.table("../data/plot.sample.kiviat.coord_polar.001.dat", header=TRUE, sep=",")
@@ -50,12 +51,10 @@ ggplot(experimentdataset,
 	     scale_colour_stata() +
              theme(legend.title=element_blank(), 
 		   legend.position="bottom",
-		   legend.text=element_text(size=12),
-		   #legend.key.height=unit(0.35,"cm"),
-		   #plot.margin=unit(c(0.2,0.15,0.05,0.8),"cm"),
+		   legend.text=element_text(size=14),
 		   plot.margin=unit(c(0.5,0.5,0,0.8),"cm"),
-		   strip.text = element_text(size=12),
-		   axis.text = element_text(size=12),
-		   axis.title.y = element_text(vjust=-0.2,size=12)) + 
+		   strip.text = element_text(size=14),
+		   axis.text = element_text(size=14),
+		   axis.title.y = element_text(vjust=-0.2,size=14)) + 
 	     guides(linetype = guide_legend(nrow = 3))
 @

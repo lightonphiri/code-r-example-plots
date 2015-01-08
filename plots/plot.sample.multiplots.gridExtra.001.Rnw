@@ -16,7 +16,8 @@ require(gridExtra)
 require(ggthemes)
 
 # generate tikZ-LaTeX input file
-tikz('plot.sample.multiplots.gridExtra.001.tex', width=5.5, height=8.0)
+###tikz('../output/plot.sample.multiplots.gridExtra.001.tex', width=5.5, height=8.0)
+tikz('../output/plot.sample.multiplots.gridExtra.001.tex')
 
 # 
 # INDEX THROUGHPUT
@@ -83,12 +84,10 @@ p1 = ggplot(data=experimentdataset[experimentdataset$variable=="Time",],
 		  scale_colour_stata() +
                   theme(legend.title=element_blank(), 
 			legend.position="none", 
-			axis.title.x=element_text(vjust=-0.5,size=10),
-			axis.title.y = element_text(vjust=-0.2,size=10),
+			axis.title.x=element_text(vjust=-0.5,size=14),
+			axis.title.y = element_text(vjust=-0.2,size=14),
+                        axis.text = element_text(size=14),
 			axis.text.x = element_text(angle=90, vjust=0.5),
-			#axis.text.x=element_blank(), 
-			#axis.ticks.x=element_blank(), 
-			#plot.margin=unit(c(0.5,0.15,0,0.8), "cm")
 			plot.margin=unit(c(0.5,0.5,0.5,0.8),"cm"))
 
 
@@ -111,10 +110,10 @@ p2 = ggplot(data=experimentdataset[experimentdataset$variable=="Throughput",],
                    legend.position="none",
                    #plot.margin=unit(c(0,0.15,0.8,0.8),"cm"),
 		   plot.margin=unit(c(0.5,0.5,0.5,0.8),"cm"),
-		   strip.text=element_text(size=9),
-                   axis.title.x = element_text(vjust=-0.8,size=10),
-                   axis.title.y = element_text(vjust=-0.2,size=10),
-		   axis.text = element_text(size=8),
+		   strip.text=element_text(size=14),
+                   axis.title.x = element_text(vjust=-0.8,size=14),
+                   axis.title.y = element_text(vjust=-0.2,size=14),
+		   axis.text = element_text(size=14),
                    axis.text.x = element_text(angle=90, vjust=0.5))
 
 p3 = ggplot(data=index_size_experimentdataset, 
@@ -135,14 +134,14 @@ p3 = ggplot(data=index_size_experimentdataset,
              theme(legend.title=element_blank(),
                    #legend.position=c(0.15,0.85),
 		   legend.position="bottom",
-		   legend.text=element_text(size=8),
+		   legend.text=element_text(size=14),
 		   legend.key.height=unit(0.35,"cm"),
                    #plot.margin=unit(c(0.2,0.15,0.8,0.8),"cm"),
 		   plot.margin=unit(c(0.5,0.5,0,0.8),"cm"),
-		   strip.text = element_text(size=9),
-                   axis.title.x = element_text(vjust=-0.8,size=10),
-                   axis.title.y = element_text(vjust=-0.2,size=10),
-		   axis.text = element_text(size=8),
+		   strip.text = element_text(size=14),
+                   axis.title.x = element_text(vjust=-0.8,size=14),
+                   axis.title.y = element_text(vjust=-0.2,size=14),
+		   axis.text = element_text(size=14),
                    axis.text.x = element_text(angle=90, vjust=0.5))
 
 p4 = ggplot(data=incremental_index_experimentdataset, 
@@ -161,19 +160,16 @@ p4 = ggplot(data=incremental_index_experimentdataset,
 	     theme_igray() +
 	     scale_colour_stata() +
              theme(legend.title=element_blank(), 
-		   #legend.position=c(0.25,0.78), 
-		   #legend.direction="horizontal",
 		   legend.position="bottom",
-		   legend.text=element_text(size=8),
+		   legend.text=element_text(size=14),
 		   legend.key.height=unit(0.35,"cm"),
-		   #plot.margin=unit(c(0.2,0.15,0.8,0.8),"cm"),
 		   plot.margin=unit(c(0.5,0.5,0,0.8),"cm"),
-  		   strip.text = element_text(size=9),
-		   axis.title.x = element_text(vjust=-0.8,size=10),
-		   axis.title.y = element_text(vjust=-0.2,size=10),
-		   axis.text = element_text(size=8),
+  		   strip.text = element_text(size=14),
+		   axis.title.x = element_text(vjust=-0.8,size=14),
+		   axis.title.y = element_text(vjust=-0.2,size=14),
+		   axis.text = element_text(size=14),
 		   axis.text.x = element_text(angle=90, vjust=0.5))
 
 # call gridExtra for multiplot combination
-grid.arrange(p3, p1, p2, nrow=3)
+grid.arrange(p1, p2, nrow=2)
 @
