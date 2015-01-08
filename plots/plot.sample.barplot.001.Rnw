@@ -1,10 +1,7 @@
 <<fig=FALSE, echo=FALSE>>=
 # Author: Lighton Phiri
 # Date: January 2013
-# Purpose: ggplot2 develoer survey plot
-# 
-# Summary bar plot showing programming language
-# usage during developer survey.
+# Purpose: Sample barplot
 # 
 
 # import libraries 

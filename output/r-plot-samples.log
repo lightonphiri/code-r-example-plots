@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.7)  8 JAN 2015 13:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.7)  8 JAN 2015 15:04
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -406,7 +406,7 @@ amples}"; dvips -o "r-plot-samples-figure0".ps "r-plot-samples-figure0".dvi; ps
 \openout3 = `r-plot-samples.auxlock'.
 
 File: r-plot-samples-figure0.eps Graphic file (type eps)
-<r-plot-samples-figure0.eps>) (./plot.sample.multiplots.gridExtra.001.tex
+<r-plot-samples-figure0.eps>) (./plot.sample.barplot.002.tex
 \openout3 = `r-plot-samples-figure1.md5'.
 
 
@@ -425,7 +425,7 @@ amples}"; dvips -o "r-plot-samples-figure1".ps "r-plot-samples-figure1".dvi; ps
 \openout3 = `r-plot-samples.auxlock'.
 
 File: r-plot-samples-figure1.eps Graphic file (type eps)
-<r-plot-samples-figure1.eps>) (./plot.sample.kiviat.coord_polar.001.tex
+<r-plot-samples-figure1.eps>) (./plot.sample.boxplot.001.tex
 \openout3 = `r-plot-samples-figure2.md5'.
 
 
@@ -444,36 +444,84 @@ amples}"; dvips -o "r-plot-samples-figure2".ps "r-plot-samples-figure2".dvi; ps
 \openout3 = `r-plot-samples.auxlock'.
 
 File: r-plot-samples-figure2.eps Graphic file (type eps)
-<r-plot-samples-figure2.eps>)
-Overfull \hbox (175.89pt too wide) in paragraph at lines 3--18
+<r-plot-samples-figure2.eps>) (./plot.sample.kiviat.coord_polar.001.tex
+\openout3 = `r-plot-samples-figure3.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'latex -shell-escape -halt-on-e
+rror -interaction=batchmode -jobname "r-plot-samples-figure3" "\def\tikzexterna
+lrealjob{r-plot-samples}\input{r-plot-samples}"; dvips -o "r-plot-samples-figur
+e3".ps "r-plot-samples-figure3".dvi; ps2eps "r-plot-samples-figure3.ps"' ======
+==
+\openout3 = `r-plot-samples.auxlock'.
+
+runsystem(latex -shell-escape -halt-on-error -interaction=batchmode -jobname "r
+-plot-samples-figure3" "\def\tikzexternalrealjob{r-plot-samples}\input{r-plot-s
+amples}"; dvips -o "r-plot-samples-figure3".ps "r-plot-samples-figure3".dvi; ps
+2eps "r-plot-samples-figure3.ps")...executed.
+
+\openout3 = `r-plot-samples.auxlock'.
+
+File: r-plot-samples-figure3.eps Graphic file (type eps)
+<r-plot-samples-figure3.eps>) (./plot.sample.multiplots.gridExtra.001.tex
+\openout3 = `r-plot-samples-figure4.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'latex -shell-escape -halt-on-e
+rror -interaction=batchmode -jobname "r-plot-samples-figure4" "\def\tikzexterna
+lrealjob{r-plot-samples}\input{r-plot-samples}"; dvips -o "r-plot-samples-figur
+e4".ps "r-plot-samples-figure4".dvi; ps2eps "r-plot-samples-figure4.ps"' ======
+==
+\openout3 = `r-plot-samples.auxlock'.
+
+runsystem(latex -shell-escape -halt-on-error -interaction=batchmode -jobname "r
+-plot-samples-figure4" "\def\tikzexternalrealjob{r-plot-samples}\input{r-plot-s
+amples}"; dvips -o "r-plot-samples-figure4".ps "r-plot-samples-figure4".dvi; ps
+2eps "r-plot-samples-figure4.ps")...executed.
+
+\openout3 = `r-plot-samples.auxlock'.
+
+File: r-plot-samples-figure4.eps Graphic file (type eps)
+<r-plot-samples-figure4.eps>)
+Overfull \hbox (175.89pt too wide) in paragraph at lines 3--20
 [][]
  []
 
 
-Overfull \hbox (160.89pt too wide) in paragraph at lines 3--18
+Overfull \hbox (160.89pt too wide) in paragraph at lines 3--20
 []
  []
 
 
-Overfull \hbox (134.79251pt too wide) in paragraph at lines 3--18
+Overfull \hbox (160.89pt too wide) in paragraph at lines 3--20
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--18
+Overfull \hbox (134.79251pt too wide) in paragraph at lines 3--20
+[]
+ []
+
+
+Overfull \hbox (160.89pt too wide) in paragraph at lines 3--20
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--20
 
  []
 
 [1
 
-] [2] [3] (./r-plot-samples.aux) ) 
+] [2] [3] [4] [5] (./r-plot-samples.aux) ) 
 Here is how much of TeX's memory you used:
- 10848 strings out of 493309
- 229902 string characters out of 6137849
- 625169 words of memory out of 5000000
- 14119 multiletter control sequences out of 15000+600000
+ 10858 strings out of 493309
+ 230164 string characters out of 6137849
+ 625270 words of memory out of 5000000
+ 14121 multiletter control sequences out of 15000+600000
  4234 words of font info for 15 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  55i,5n,58p,549b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on r-plot-samples.dvi (3 pages, 5592 bytes).
+Output written on r-plot-samples.dvi (5 pages, 6096 bytes).
