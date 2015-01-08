@@ -42,17 +42,17 @@ Sample Catalogue
 ----------------
 
 * Barplots
-    ![plot.sample.barplot.001.Rnw](../output/plot.sample.barplot.001.eps)
-    ![plot.sample.barplot.002.Rnw](../output/plot.sample.barplot.002.eps)
+    ![plot.sample.barplot.001.Rnw](../output/plot.sample.barplot.001.png)
+    ![plot.sample.barplot.002.Rnw](../output/plot.sample.barplot.002.png)
     
 * Boxplots
-    ![plot.sample.boxplot.001.Rnw](../output/plot.sample.barplot.002.eps)
+    ![plot.sample.boxplot.001.Rnw](../output/plot.sample.barplot.002.png)
 
 * Kiviat Plots
-    ![plot.sample.kiviat.coord_polar.001.Rnw](../output/plot.sample.kiviat.coord_polar.001.eps)
+    ![plot.sample.kiviat.coord_polar.001.Rnw](../output/plot.sample.kiviat.coord_polar.001.png)
 
 * Multiple Plot on One Graph
-    ![plot.sample.multiplots.gridExtra.001.Rnw](../output/plot.sample.multiplots.gridExtra.001.eps)
+    ![plot.sample.multiplots.gridExtra.001.Rnw](../output/plot.sample.multiplots.gridExtra.001.png)
     
 Contributing
 ------------
