@@ -85,3 +85,17 @@ Plots Catalogue
 * Output file: [plot.sample.multiplots.gridExtra.001.eps](../master/output/plot.sample.multiplots.gridExtra.001.eps)
 
 ![plot.sample.multiplots.gridExtra.001.Rnw](../master/output/plot.sample.multiplots.gridExtra.001.png?raw=true)
+
+### Faceting
+
+* Sweave file: [plot.sample.facets.facet_grid.001.Rnw](../master/plots/plot.sample.facets.facet_grid.001.Rnw)
+* Data file  : [plot.sample.facets.facet_grid.001.dat](../master/data/plot.sample.facets.facet_grid.001.dat)
+* Output file: [plot.sample.facets.facet_grid.001.eps](../master/output/plot.sample.facets.facet_grid.001.eps)
+
+![plot.sample.facets.facet_grid.001.Rnw](../master/output/plot.sample.facets.facet_grid.001.png?raw=true)
+
+* Sweave file: [plot.sample.facets.facet_wrap.001.Rnw](../master/plots/plot.sample.facets.facet_wrap.001.Rnw)
+* Data file  : [plot.sample.facets.facet_wrap.001.dat](../master/data/plot.sample.facets.facet_wrap.001.dat)
+* Output file: [plot.sample.facets.facet_wrap.001.eps](../master/output/plot.sample.facets.facet_wrap.001.eps)
+
+![plot.sample.facets.facet_wrap.001.Rnw](../master/output/plot.sample.facets.facet_wrap.001.png?raw=true)

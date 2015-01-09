@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.7)  8 JAN 2015 15:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.7)  9 JAN 2015 10:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -388,60 +388,188 @@ LaTeX Font Info:    Try loading font information for OT1+bch on input line 14.
 File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 )
 ABD: EveryShipout initializing macros (./plot.sample.barplot.001.tex
-===== Image 'r-plot-samples-figure0' is up-to-date. ======
+\openout3 = `r-plot-samples-figure0.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'latex -shell-escape -halt-on-e
+rror -interaction=batchmode -jobname "r-plot-samples-figure0" "\def\tikzexterna
+lrealjob{r-plot-samples}\input{r-plot-samples}"; dvips -o "r-plot-samples-figur
+e0".ps "r-plot-samples-figure0".dvi; ps2eps "r-plot-samples-figure0.ps"' ======
+==
+\openout3 = `r-plot-samples.auxlock'.
+
+runsystem(latex -shell-escape -halt-on-error -interaction=batchmode -jobname "r
+-plot-samples-figure0" "\def\tikzexternalrealjob{r-plot-samples}\input{r-plot-s
+amples}"; dvips -o "r-plot-samples-figure0".ps "r-plot-samples-figure0".dvi; ps
+2eps "r-plot-samples-figure0.ps")...executed.
+
+\openout3 = `r-plot-samples.auxlock'.
+
 File: r-plot-samples-figure0.eps Graphic file (type eps)
 <r-plot-samples-figure0.eps>) (./plot.sample.barplot.002.tex
-===== Image 'r-plot-samples-figure1' is up-to-date. ======
+\openout3 = `r-plot-samples-figure1.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'latex -shell-escape -halt-on-e
+rror -interaction=batchmode -jobname "r-plot-samples-figure1" "\def\tikzexterna
+lrealjob{r-plot-samples}\input{r-plot-samples}"; dvips -o "r-plot-samples-figur
+e1".ps "r-plot-samples-figure1".dvi; ps2eps "r-plot-samples-figure1.ps"' ======
+==
+\openout3 = `r-plot-samples.auxlock'.
+
+runsystem(latex -shell-escape -halt-on-error -interaction=batchmode -jobname "r
+-plot-samples-figure1" "\def\tikzexternalrealjob{r-plot-samples}\input{r-plot-s
+amples}"; dvips -o "r-plot-samples-figure1".ps "r-plot-samples-figure1".dvi; ps
+2eps "r-plot-samples-figure1.ps")...executed.
+
+\openout3 = `r-plot-samples.auxlock'.
+
 File: r-plot-samples-figure1.eps Graphic file (type eps)
 <r-plot-samples-figure1.eps>) (./plot.sample.boxplot.001.tex
-===== Image 'r-plot-samples-figure2' is up-to-date. ======
+\openout3 = `r-plot-samples-figure2.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'latex -shell-escape -halt-on-e
+rror -interaction=batchmode -jobname "r-plot-samples-figure2" "\def\tikzexterna
+lrealjob{r-plot-samples}\input{r-plot-samples}"; dvips -o "r-plot-samples-figur
+e2".ps "r-plot-samples-figure2".dvi; ps2eps "r-plot-samples-figure2.ps"' ======
+==
+\openout3 = `r-plot-samples.auxlock'.
+
+runsystem(latex -shell-escape -halt-on-error -interaction=batchmode -jobname "r
+-plot-samples-figure2" "\def\tikzexternalrealjob{r-plot-samples}\input{r-plot-s
+amples}"; dvips -o "r-plot-samples-figure2".ps "r-plot-samples-figure2".dvi; ps
+2eps "r-plot-samples-figure2.ps")...executed.
+
+\openout3 = `r-plot-samples.auxlock'.
+
 File: r-plot-samples-figure2.eps Graphic file (type eps)
 <r-plot-samples-figure2.eps>) (./plot.sample.kiviat.coord_polar.001.tex
-===== Image 'r-plot-samples-figure3' is up-to-date. ======
+\openout3 = `r-plot-samples-figure3.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'latex -shell-escape -halt-on-e
+rror -interaction=batchmode -jobname "r-plot-samples-figure3" "\def\tikzexterna
+lrealjob{r-plot-samples}\input{r-plot-samples}"; dvips -o "r-plot-samples-figur
+e3".ps "r-plot-samples-figure3".dvi; ps2eps "r-plot-samples-figure3.ps"' ======
+==
+\openout3 = `r-plot-samples.auxlock'.
+
+runsystem(latex -shell-escape -halt-on-error -interaction=batchmode -jobname "r
+-plot-samples-figure3" "\def\tikzexternalrealjob{r-plot-samples}\input{r-plot-s
+amples}"; dvips -o "r-plot-samples-figure3".ps "r-plot-samples-figure3".dvi; ps
+2eps "r-plot-samples-figure3.ps")...executed.
+
+\openout3 = `r-plot-samples.auxlock'.
+
 File: r-plot-samples-figure3.eps Graphic file (type eps)
 <r-plot-samples-figure3.eps>) (./plot.sample.multiplots.gridExtra.001.tex
-===== Image 'r-plot-samples-figure4' is up-to-date. ======
+\openout3 = `r-plot-samples-figure4.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'latex -shell-escape -halt-on-e
+rror -interaction=batchmode -jobname "r-plot-samples-figure4" "\def\tikzexterna
+lrealjob{r-plot-samples}\input{r-plot-samples}"; dvips -o "r-plot-samples-figur
+e4".ps "r-plot-samples-figure4".dvi; ps2eps "r-plot-samples-figure4.ps"' ======
+==
+\openout3 = `r-plot-samples.auxlock'.
+
+runsystem(latex -shell-escape -halt-on-error -interaction=batchmode -jobname "r
+-plot-samples-figure4" "\def\tikzexternalrealjob{r-plot-samples}\input{r-plot-s
+amples}"; dvips -o "r-plot-samples-figure4".ps "r-plot-samples-figure4".dvi; ps
+2eps "r-plot-samples-figure4.ps")...executed.
+
+\openout3 = `r-plot-samples.auxlock'.
+
 File: r-plot-samples-figure4.eps Graphic file (type eps)
-<r-plot-samples-figure4.eps>)
-Overfull \hbox (175.89pt too wide) in paragraph at lines 3--20
+<r-plot-samples-figure4.eps>) (./plot.sample.facets.facet_grid.001.tex
+\openout3 = `r-plot-samples-figure5.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'latex -shell-escape -halt-on-e
+rror -interaction=batchmode -jobname "r-plot-samples-figure5" "\def\tikzexterna
+lrealjob{r-plot-samples}\input{r-plot-samples}"; dvips -o "r-plot-samples-figur
+e5".ps "r-plot-samples-figure5".dvi; ps2eps "r-plot-samples-figure5.ps"' ======
+==
+\openout3 = `r-plot-samples.auxlock'.
+
+runsystem(latex -shell-escape -halt-on-error -interaction=batchmode -jobname "r
+-plot-samples-figure5" "\def\tikzexternalrealjob{r-plot-samples}\input{r-plot-s
+amples}"; dvips -o "r-plot-samples-figure5".ps "r-plot-samples-figure5".dvi; ps
+2eps "r-plot-samples-figure5.ps")...executed.
+
+\openout3 = `r-plot-samples.auxlock'.
+
+File: r-plot-samples-figure5.eps Graphic file (type eps)
+<r-plot-samples-figure5.eps>) (./plot.sample.facets.facet_wrap.001.tex
+\openout3 = `r-plot-samples-figure6.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'latex -shell-escape -halt-on-e
+rror -interaction=batchmode -jobname "r-plot-samples-figure6" "\def\tikzexterna
+lrealjob{r-plot-samples}\input{r-plot-samples}"; dvips -o "r-plot-samples-figur
+e6".ps "r-plot-samples-figure6".dvi; ps2eps "r-plot-samples-figure6.ps"' ======
+==
+\openout3 = `r-plot-samples.auxlock'.
+
+runsystem(latex -shell-escape -halt-on-error -interaction=batchmode -jobname "r
+-plot-samples-figure6" "\def\tikzexternalrealjob{r-plot-samples}\input{r-plot-s
+amples}"; dvips -o "r-plot-samples-figure6".ps "r-plot-samples-figure6".dvi; ps
+2eps "r-plot-samples-figure6.ps")...executed.
+
+\openout3 = `r-plot-samples.auxlock'.
+
+File: r-plot-samples-figure6.eps Graphic file (type eps)
+<r-plot-samples-figure6.eps>)
+Overfull \hbox (175.89pt too wide) in paragraph at lines 3--22
 [][]
  []
 
 
-Overfull \hbox (160.89pt too wide) in paragraph at lines 3--20
+Overfull \hbox (160.89pt too wide) in paragraph at lines 3--22
 []
  []
 
 
-Overfull \hbox (160.89pt too wide) in paragraph at lines 3--20
+Overfull \hbox (160.89pt too wide) in paragraph at lines 3--22
 []
  []
 
 
-Overfull \hbox (134.79251pt too wide) in paragraph at lines 3--20
+Overfull \hbox (134.79251pt too wide) in paragraph at lines 3--22
 []
  []
 
 
-Overfull \hbox (160.89pt too wide) in paragraph at lines 3--20
+Overfull \hbox (160.89pt too wide) in paragraph at lines 3--22
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--20
+Overfull \hbox (160.89pt too wide) in paragraph at lines 3--22
+[]
+ []
+
+
+Overfull \hbox (160.89pt too wide) in paragraph at lines 3--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--22
 
  []
 
 [1
 
-] [2] [3] [4] [5] (./r-plot-samples.aux) ) 
+] [2] [3] [4] [5] [6] [7] (./r-plot-samples.aux) ) 
 Here is how much of TeX's memory you used:
- 10858 strings out of 493309
- 230164 string characters out of 6137849
- 625270 words of memory out of 5000000
- 14121 multiletter control sequences out of 15000+600000
+ 10868 strings out of 493309
+ 230486 string characters out of 6137849
+ 1023186 words of memory out of 5000000
+ 14123 multiletter control sequences out of 15000+600000
  4234 words of font info for 15 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  55i,5n,58p,549b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on r-plot-samples.dvi (5 pages, 6096 bytes).
+Output written on r-plot-samples.dvi (7 pages, 6604 bytes).
